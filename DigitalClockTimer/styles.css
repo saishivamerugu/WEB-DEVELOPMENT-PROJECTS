@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-image: url("https://i.pinimg.com/originals/e5/9a/c2/e59ac2b742698adf2d3e4a4cc1d6270a.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock-box{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Ensure compatibility */
+    background-color: hsla(0, 0%, 90%, 0.2);
+    width: 100%;
+}
+#heading{
+    font-family: monospace;
+    text-align: center;
+    margin-top:100px ;
+}
