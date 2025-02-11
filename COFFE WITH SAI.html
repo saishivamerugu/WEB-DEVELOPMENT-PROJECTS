@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFE CUP</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        #navbar{
+            display: flex;
+            background-color: black;
+            height: 50px;
+            color: white;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .two{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        .login-signup {
+            height: 30px;
+            width: auto;
+            background-color: rgb(103, 189, 33);
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-signup a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #info {
+            padding: 20px;
+            background-color: black;
+        }
+
+        #one {
+            font-size: 5vw;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .info-img {
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 10px 10px;
+            margin: 0 auto;
+        }
+
+        #four {
+            height: 30px;
+            width: auto;
+            background-color: rgb(139, 235, 147);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0;
+            margin-top: 10px;
+        }
+
+        #four a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .three1 {
+            text-align: center;
+        }
+
+        .ima1 {
+            color: white;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .ima1-heading {
+            font-size: 4vw;
+        }
+
+        .ima1-text {
+            margin-top: 10px;
+        }
+
+        .learn-more {
+            height: 25px;
+            width: auto;
+            background-color: bisque;
+            padding: 5px 10px;
+            border: 1px solid black;
+            color: black;
+            margin-top: 10px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .ima {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .ima-img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .three {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #prod {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .drinks{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: auto;
+            border: 1px solid wheat;
+            width: 300px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .bord{
+            color: white;
+            margin: 10px;
+        }
+
+        #wond{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .about{
+            height: auto;
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        span{
+            color: wheat;
+        }
+
+        .divider{
+            color: wheat;
+            margin: 20px 0;
+        }
+
+        .footer{
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px){
+            #navbar {
+                flex-direction: column;
+                height: auto;
+                padding: 10px;
+            }
+
+            .logo{
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .login-signup{
+                width: auto;
+                margin-top: 10px;
+            }
+
+            .ima1-heading {
+                font-size: 5vw;
+            }
+
+            .info-img, .ima-img{
+                max-width: 100%;
+            }
+
+            .drinks{
+                width: 90%;
+                margin: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #one {
+                font-size: 4vw;
+            }
+
+            .ima1-heading{
+                font-size: 6vw;
+            }
+
+            .learn-more{
+                font-size: 14px;
+                padding: 5px;
+            }
+
+            .drinks{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div class="two logo">Logo</div>
+        <div class="two">Home</div>
+        <div class="two">About</div>
+        <div class="two">Services</div>
+        <div class="two">Contact</div>
+        <div class="two login-signup">
+            <a href="file:///C:/Users/admin/Desktop/sai_navbar/login.html">Login / Signup</a>
+        </div>
+    </div>
+  
+    <section id="info">
+        <h1 id="one">START YOUR DAY</h1>
+        <div class="three1">
+            <center>
+                <img src="https://th.bing.com/th/id/OIP.y7JFRoPyyUXlIxlZLF_hPQHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="info-img" alt="Image">
+            </center>
+            
+            <center>
+                <div id="four" style="width: fit-content; margin-top:20px ;">
+                    <h3><a href="www">SHOP NOW</a></h3>
+                </div>
+            </center>
+            <br><br><br><br><br><br><br>
+            <div class="three2">
+                <div class="ima1">
+                    <h1 class="ima1-heading">PERFECT PLACE <br> TO ENJOY YOUR <br> COFFEE</h1>
+                    <p class="ima1-text">Enjoy the Coffee with our Cafeteria</p>
+                    <div class="learn-more">
+                        <h4>Learn More</h4>
+                    </div>
+                </div>
+                <div class="ima">
+                    <img src="https://th.bing.com/th/id/OIP.rwyZsWOwp1CVMtGULqV4NQHaE8?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="ima-img" alt="Image">
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+            <div class="three">
+                <h1>PRODUCTS</h1>
+            </div>
+            <br><br><br>
+            <div id="prod">
+                <div class="drinks">
+                    <h3 class="bord">Mocha</h3>
+                    <h4 class="bord">Espresso</h4>
+                    <h4 class="bord">Chocolate</h4>
+                    <h4 class="bord">Steamed Milk</h4>
+                    <div class="learn-more">
+                        <h4>Learn More</h4>
+                    </div>
+                </div>
+                <div class="drinks">
+                    <h3 class="bord">Mocha</h3>
+                    <h4 class="bord">Espresso</h4>
+                    <h4 class="bord">Chocolate</h4>
+                    <h4 class="bord">Steamed Milk</h4>
+                    <div class="learn-more">
+                        <h4>Learn More</h4>
+                    </div>
+                </div>
+                <div class="drinks">
+                    <h3 class="bord">Mocha</h3>
+                    <h4 class="bord">Espresso</h4>
+                    <h4 class="bord">Chocolate</h4>
+                    <h4 class="bord">Steamed Milk</h4>
+                    <div class="learn-more">
+                        <h4>Learn More</h4>
+                    </div>
+                </div>
+            </div>
+            <center><p class="divider">_______________________________________</p></center>
+            <div id="wond">
+                <div class="about">
+                    <h2>About <span>Us</span></h2>
+                    <p>Sit amet consectetur adipisicing elit. Dolor doloremque reiciendis ea voluptatibus.</p>
+                </div>
+                <div class="about">
+                    <h2>Contact <span>Us</span></h2>
+                    <p>Sit amet consectetur adipisicing elit. Dolor doloremque reiciendis ea voluptatibus.</p>
+                </div>
+                <div class="about">
+                    <h2>Opening <span>Hours</span></h2>
+                    <p>Sit amet consectetur adipisicing elit. Dolor doloremque reiciendis ea voluptatibus.</p>
+                </div>
+            </div>
+            <br>
+            <center><p class="divider">______________________________________</p></center>
+            <div class="footer">
+                <h3>Copyright @ 2022 HuXn WebDev | Provided by <span>HuXn WebDev</span></h3>
+            </div>
+        </section>
+    </body>
+</html>
